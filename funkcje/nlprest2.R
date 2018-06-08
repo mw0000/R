@@ -1,5 +1,7 @@
 
+# kontekst: https://wilkowski.org/notka/1630
 # definicja funkcji
+
 
 nlprest2 <- function(t,u) {
   library(httr)
