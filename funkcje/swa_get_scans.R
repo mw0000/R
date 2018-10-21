@@ -41,7 +41,7 @@ swa_get_scans <- function (id,download=FALSE) {
     images <- append(images, p, after=length(images))
   }
   
-  # preparing propper urls for scan images
+  # preparing proper urls for scan images
   
   images <- lapply(images, gsub, pattern="^/", replacement = "https://szukajwarchiwach.pl/")
   images <- lapply(images, gsub, pattern="medium", replacement = "img",fixed=TRUE)
