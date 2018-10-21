@@ -29,7 +29,7 @@ swa_get_scans <- function (id,download=FALSE) {
   
   images <- character()
   
-  for(i in 1:f){
+  for(i in 1:u){
     i <- paste0("https://szukajwarchiwach.pl/",id,"/str/1/",i,"/15#tabSkany")
     p <- GET(i)
     p <- content(p, "text")
